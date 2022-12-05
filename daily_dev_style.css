@@ -1,10 +1,17 @@
-* {background-color:rgb(14,18,23);}
+* {
+    box-sizing:border-box;
+    margin:auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {background-color:rgb(14,18,23);}
 
 /*Nav Bar*/
 .nav_div {
     width:100%;
     height:100px;
     background-color:rgb(23,25,31);
+    margin-bottom:100px;
 }
 
 .daily_logo {margin-top:35px;
@@ -63,4 +70,55 @@
 
 .add:hover {
     background-color:grey;
+}
+
+/*All Developers News*/
+.all_dev_big {
+    width:90%;
+    height:400px;
+}
+
+.all_dev_big_left {
+    width:40%;
+    height:400px;
+    float:left;
+}
+
+.all_dev_big_left a {text-decoration:none;}
+
+.try:hover {
+    color:white;
+    text-decoration:underline;
+}
+
+.all_dev_big_left h1 {margin-bottom:50px;}
+
+.all_dev_big_right {
+    width:40%;
+    height:400px;
+    float:right;
+}
+
+/*Text style*/
+.text_color_white {
+    color:white;
+}
+
+.text_color_grey {
+    color:grey;
+}
+
+.h1_fat {
+    font-size:40px;
+    font-weight:600;
+}
+
+.h1_slim {
+    font-size:25px;
+    font-weight:200;
+}
+
+.normal_text {
+    font-weight:600;
+    font-size:17px;
 }
