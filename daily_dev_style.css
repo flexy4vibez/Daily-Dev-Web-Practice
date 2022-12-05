@@ -1,1 +1,66 @@
-* {background:black;}
+* {background-color:rgb(14,18,23);}
+
+/*Nav Bar*/
+.nav_div {
+    width:100%;
+    height:100px;
+    background-color:rgb(23,25,31);
+}
+
+.daily_logo {margin-top:35px;
+            margin-left:40px;
+}
+
+.nav_text {
+    width:40%;
+    float:right;
+    text-align:center;
+    font-size:18px;
+    font-weight:600;
+    color:rgb(159,160,162);
+    justify-content:space-evenly;
+    margin-top:35px;
+}
+
+.apps {
+    float:left;
+    width:18%;
+
+}
+
+.docs {
+    float:left;
+    width:18%;
+
+}
+
+.add {
+    float:left;
+    width:60%;
+    border:1px solid white;
+    border-radius:20px;
+    padding:5px;
+    margin-top:-5px;
+}
+
+.apps_docs_link {
+    text-decoration:none;
+    color:rgb(159,160,162);
+}
+
+.apps_docs_link:hover {
+    color:white;
+}
+
+.add_link{
+    text-decoration:none;
+    color:rgb(159,160,162);
+}
+
+.add_link:hover {
+    color:rgb(159,160,162);
+}
+
+.add:hover {
+    background-color:grey;
+}
