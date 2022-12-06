@@ -119,7 +119,7 @@ body {background-color:rgb(14,18,23);}
 }
 
 .h1_slim {
-    font-size:25px;
+    font-size:40px;
     font-weight:200;
 }
 
@@ -144,4 +144,24 @@ body {background-color:rgb(14,18,23);}
     width:60%;
     height:230px;
     float:right;
+}
+
+/*Get a Feed*/
+.get_a_feed {
+    width:35%;
+    height:150px;
+    margin:auto;
+}
+
+/*Any Topic*/
+.any_topic {
+    width:60%;
+    height:550px;
+    margin:auto;
+}
+
+/*Never Miss Big Div*/
+.never_miss {
+    width:80%;
+    height:350px;
 }
