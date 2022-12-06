@@ -76,6 +76,7 @@ body {background-color:rgb(14,18,23);}
 .all_dev_big {
     width:90%;
     height:400px;
+    margin-bottom:100px;
 }
 
 .all_dev_big_left {
@@ -108,6 +109,10 @@ body {background-color:rgb(14,18,23);}
     color:grey;
 }
 
+.text_color_purple {
+    color:purple;
+}
+
 .h1_fat {
     font-size:40px;
     font-weight:600;
@@ -121,4 +126,22 @@ body {background-color:rgb(14,18,23);}
 .normal_text {
     font-weight:600;
     font-size:17px;
+}
+
+/*Used By*/
+.used_by_big {
+    width:90%;
+    height:230px;
+}
+
+.used_by_big_left {
+    width:25%;
+    height:230px;
+    float:left;
+}
+
+.used_by_big_right {
+    width:60%;
+    height:230px;
+    float:right;
 }
