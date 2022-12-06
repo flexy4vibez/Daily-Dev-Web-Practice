@@ -12,6 +12,8 @@ body {background-color:rgb(14,18,23);}
     height:100px;
     background-color:rgb(23,25,31);
     margin-bottom:100px;
+    position:sticky;
+    top:0px;
 }
 
 .daily_logo {margin-top:35px;
@@ -162,6 +164,37 @@ body {background-color:rgb(14,18,23);}
 
 /*Never Miss Big Div*/
 .never_miss {
-    width:80%;
+    width:90%;
+    height:350px;
+    justify-content:space-evenly;
+    display:flex;
+}
+
+.never_miss_small {
+    width:30%;
     height:350px;
 }
+
+.never_miss_small img, h3 {
+    margin-bottom:25px;
+}
+
+/*There is Big Div*/
+.there_is_big {
+    width:90%;
+    height:500px;
+    justify-content:space-evenly;
+    display:flex;
+}
+
+.there_is_small1 {
+    width:35%;
+    height:350px;
+}
+
+.there_is_small2 {
+    width:55%;
+    height:500px;
+}
+
+.there_is_small1 h1 + p {margin-top:30px;}
