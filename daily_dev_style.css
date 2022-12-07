@@ -218,3 +218,23 @@ body {background-color:rgb(14,18,23);}
 }
 
 .customize_small2 h1 + p {margin-top:30px;}
+
+/*Bookmark Big Div*/
+.bookmark_big {
+    width:90%;
+    height:500px;
+    justify-content:space-evenly;
+    display:flex;
+}
+
+.bookmark_left {
+    width:45%;
+    height:380px;
+}
+
+.bookmark_right {
+    width:36%;
+    height:500px;
+}
+
+.bookmark_left h1 + p {margin-top:30px;}
