@@ -198,3 +198,23 @@ body {background-color:rgb(14,18,23);}
 }
 
 .there_is_small1 h1 + p {margin-top:30px;}
+
+/*Customize Big Div*/
+.customize_big {
+    width:90%;
+    height:750px;
+    justify-content:space-evenly;
+    display:flex;
+}
+
+.customize_small1 {
+    width:55%;
+    height:580px;
+}
+
+.customize_small2 {
+    width:38%;
+    height:250px;
+}
+
+.customize_small2 h1 + p {margin-top:30px;}
